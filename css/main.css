@@ -1,0 +1,173 @@
+/***** BASE STYLES *****/
+
+body {
+      font-family: 'Source Sans Pro', sans-serif;
+      background-color: #eadbba;
+}
+
+#about, #contact, #work {
+  height: 600px;
+}
+
+
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    float:left;
+    width: 600px;
+}
+
+.third-width {
+    float:left;
+    width: 400px;
+}
+
+ /***** Header Section *****/
+
+header {
+  height: 800px;
+  background: url('../img/cherry-blossoms-2.png');
+  background-size: cover;
+
+  }
+  header h1 {
+    padding: 50px 0;
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    color: #FFFFFF;
+  }
+
+nav {
+  float: right;
+  padding: 75px 40px;
+  }
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 24px ;
+  color: #ffffff;
+  padding-left: 80px;
+}
+
+
+header h2 {
+  width: 950px;
+  clear: both;
+  font-family: 'Lora Bold', serif;
+  font-size: 72px;
+  line-height: normal;
+  color: #000000;
+  padding: 20px 0;
+}
+
+header h2 span {
+  color: #000000;
+}
+
+/****** About Section*****/
+
+#about .full-width {
+  padding: 80px 0;
+}
+
+#about h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+}
+
+#about p {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 21px;
+    color: #483b19;
+    line-height: 40px;
+    padding-right: 50px;
+}
+
+/*****Work Section*****/
+
+#work {
+  color: #3f3713;
+  text-align: center;
+}
+#work .full-width {
+  padding: 115px 0;
+}
+
+#work img {
+  padding-bottom: 30px;
+}
+
+#work h3 {
+  font-size: 24px;
+  width:190px;
+  margin: 0 auto;
+}
+
+#work p {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #483b19;
+    padding: 0 35px;
+}
+
+/***** Contact Section *****/
+
+#contact {
+
+}
+
+#contact .full-width {
+  padding: 110px 0;
+}
+#contact h2, #email-header, #socialmedia-header, #contact ul {
+  padding-left: 115px;
+}
+#envelope {
+  padding: 0 10px 0 115px;
+}
+
+#contact-img {
+    border: 12px solid #ffffff;
+}
+
+#contact h2 {
+  font-family: 'Lora', serif;
+  font-size: 36px;
+}
+#email-header{
+    font-size: 24px;
+    font-weight: 400;
+    margin: -30px 0 5px 0;
+}
+#socialmedia-header {
+  font-weight: bold;
+  font-size: 29px;
+  margin: 40px 0 0 0 ;
+}
+#contact a {
+  text-decoration: none;
+  color: #2b2b2b;
+  font-weight: bold;
+  font-size: 29px;
+}
+#contact ul {
+  list-style: none;
+}
+#contact ul li {
+  display: inline-block;
+}
+#contact ul img {
+  font-size: 32px;
+  padding-right: 48px;
+}
