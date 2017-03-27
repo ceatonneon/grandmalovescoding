@@ -1,6 +1,7 @@
 /***** BASE STYLES *****/
 
 body {
+      box-sizing: border-box;
       font-family: 'Source Sans Pro', sans-serif;
       background-color: #eadbba;
 }
@@ -12,38 +13,39 @@ body {
 
 /***** GRID *****/
 .full-width {
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
 }
 
 .half-width {
     float:left;
-    width: 600px;
+    width: 50%;
 }
 
 .third-width {
     float:left;
-    width: 400px;
+    width: 33.33%;
 }
 
  /***** Header Section *****/
 
 header {
-  height: 800px;
-  background: url('../img/cherry-blossoms-2.png');
+  height: 1000px;
+  background: url('../img/quilt.png');
   background-size: cover;
 
   }
   header h1 {
-    padding: 50px 0;
+    padding: 125px 0;
+    padding-left: 33.33%;
     font-family: 'Lora', serif;
     font-size: 30px;
-    color: #FFFFFF;
+    color: #000000;
   }
 
 nav {
   float: right;
-  padding: 75px 40px;
+  padding: 125px 40px;
   }
 
 nav ul li {
@@ -51,22 +53,25 @@ nav ul li {
 }
 
 nav ul li a {
+  font-weight: bolder;
   text-transform: uppercase;
   text-decoration: none;
   font-size: 24px ;
-  color: #ffffff;
+  color: #000000;
   padding-left: 80px;
 }
 
 
 header h2 {
-  width: 950px;
+  width: 75%;
   clear: both;
+  align: center;
   font-family: 'Lora Bold', serif;
   font-size: 72px;
   line-height: normal;
   color: #000000;
   padding: 20px 0;
+  padding-left: 16.66%;
 }
 
 header h2 span {
